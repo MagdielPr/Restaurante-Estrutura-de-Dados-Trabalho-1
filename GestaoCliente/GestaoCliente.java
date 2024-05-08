@@ -106,7 +106,6 @@ public class GestaoCliente {
     
     // Método para alocar o cliente para a mesa
     public void alocarClienteMesa(Cliente cliente, int idMesa) {
-        // Implemente a lógica para alocar o cliente para a mesa com o id informado
         System.out.println("Cliente " + cliente.getNome() + " alocado para a mesa " + idMesa);
     }
 }
